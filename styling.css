@@ -1,9 +1,28 @@
 body {
 	/* used uigradients.com for the background gradient*/
-	background: #FF5F6D; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #FF5F6D , #FFC371); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #FF5F6D , #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: white;
+	background: #ff5f6d; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to left,
+		#ff5f6d,
+		#ffc371
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to left,
+		#ff5f6d,
+		#ffc371
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: black;
 	font-family: 'Roboto Slab', serif;
 }
 
+#container {
+	height: 275px;
+	width: 275px;
+	position: relative;
+	text-align: center;
+}
+
+#backgroundinfo {
+	bottom: 18px;
+	position: absolute;
+}
