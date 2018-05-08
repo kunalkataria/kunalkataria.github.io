@@ -1,3 +1,13 @@
+a {
+	padding: 2px;
+}
+
+
+#backgroundinfo {
+	bottom: 18px;
+	position: absolute;
+}
+
 body {
 	/* used uigradients.com for the background gradient*/
 	background: #ff5f6d; /* fallback for old browsers */
@@ -22,7 +32,10 @@ body {
 	text-align: center;
 }
 
-#backgroundinfo {
-	bottom: 18px;
-	position: absolute;
+.fa-github {
+	color: black;
+}
+
+.fa-linkedin-square {
+	color: black;
 }
